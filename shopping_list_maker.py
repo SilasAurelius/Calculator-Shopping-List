@@ -20,6 +20,7 @@ while True:
 		add_item(item)
 	elif manage_list == "-":
 		item = input("Input item to remove: ")
+		remove_item(item)
 	elif manage_list == "c":
 		print_list()
 	else:
